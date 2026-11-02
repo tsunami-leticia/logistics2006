@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tsunami Logistics</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fa;
+            color: #222;
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: #062b50;
+            color: white;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            margin: 0;
+            color: #ffb703;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #ffb703;
+        }
+        
+
+
+        /* Home section */
+        .hero {
+            background-color: #0b782f;
+            color: white;
+            text-align: center;
+            padding: 90px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #ffb703;
+            color: #062b50;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        /* General sections */
+        section {
+            padding: 45px 8%;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service-card {
+            background-color: white;
+            padding: 25px;
+            width: 220px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #cccccc;
+        }
+
+        .service-card h3 {
+            color: #780b6d;
+        }
+
+        /* Contact section */
+        #contact {
+            background-color: #e3edf5;
+        }
+
+        footer {
+            background-color: #3e0650;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            .hero h1 {
+                font-size: 30px;
+            }
+        }
+        .company-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2>Tsunami Logistics</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <div class="hero" id="home">
+        <h1>Moving Your World Forward</h1>
+        <p>Reliable logistics, transportation and delivery solutions.</p>
+        <p>We help move your goods safely and efficiently.</p>
+        <a href="#contact" class="btn">Contact Us</a>
+        <div class="company-image">
+    <img src="logistics.jpeg" alt="Tsunami Logistics">
+         </div>
+    </div>
+
+    <!-- Services -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We provide logistics solutions to meet your needs.</p>
+
+        <div class="services">
+
+            <div class="service-card">
+                <h3>🚚 Transportation</h3>
+                <p>Reliable transportation of goods to your destination.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>📦 Delivery</h3>
+                <p>Efficient delivery of services for businesses and individuals.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🏬 Warehousing</h3>
+                <p>Secure storage and handling of goods.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about">
+        <h2>OUR MISSION</h2>
+        <p>
+            Tsunami Logistics is committed to providing dependable
+            transportation and logistics solutions. Our goal is to
+            deliver goods safely, on time and with care.
+        </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Need help moving your goods? Get in touch with us.</p>
+        <p>Email: info@tsunamilogistics.com</p>
+        <p>Phone: +256 763 315 507</p>
+        <a href="mailto:info@tsunamilogistics.com" class="btn">
+            Send Us an Email
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Tsunami Logistics. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
